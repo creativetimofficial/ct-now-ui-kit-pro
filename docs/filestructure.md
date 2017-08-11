@@ -15,8 +15,13 @@ Once you have downloaded the archive and opened it, you will find the following 
     │   │   │   └── tether.min.js
     │   │   ├── now-ui-kit.js
     │   │   └── plugins
-    │   │       ├── bootstrap-datepicker.js
+    │   │       ├── bootstrap-datetimepicker.min.js
+    │   │       ├── bootstrap-selectpicker.js
     │   │       ├── bootstrap-switch.js
+    │   │       ├── isometricGrids.js
+    │   │       ├── jasny-bootstrap.min.js
+    │   │       ├── modernizr.custom.js
+    │   │       ├── moment.min.js
     │   │       └── nouislider.min.js
     │   ├── scss
     │   │   ├── now-ui-kit
@@ -25,7 +30,18 @@ Once you have downloaded the archive and opened it, you will find the following 
     │   ├── template.html
     │   └── tutorial-components.html
     ├── examples
+    │   ├── about-us.html
+    │   ├── blog-post.html
+    │   ├── blog-posts.html
+    │   ├── contact-us.html
+    │   ├── ecommerce.html
     │   ├── landing-page.html
+    │   ├── login-page.html
+    │   ├── pricing.html
+    │   ├── product-page.html
     │   ├── profile-page.html
-    │   └── login-page.html
+    │   └── signup-page.html
     ├── index.html
+    ├── nucleo-icons.html
+    ├── presentation.html
+    ├── sections.html
