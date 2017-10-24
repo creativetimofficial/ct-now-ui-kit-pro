@@ -1,7 +1,7 @@
 /*!
 
  =========================================================
- * Now-ui-kit-pro - v1.0.1
+ * Now-ui-kit-pro - v1.1.0
  =========================================================
 
  * Product Page: https://www.creative-tim.com/product/now-ui-kit-pro

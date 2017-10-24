@@ -43,4 +43,5 @@ Once you have downloaded the archive and opened it, you will find the following 
     ├── index.html
     ├── nucleo-icons.html
     ├── presentation.html
+    ├── CHANGELOG.md
     ├── sections.html
