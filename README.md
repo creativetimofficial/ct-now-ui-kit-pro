@@ -1,4 +1,4 @@
-# [Now UI Kit Pro](http://demos.creative-tim.com/now-ui-kit-pro/index.html) [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
+# [Now UI Kit Pro](http://demos.creative-tim.com/now-ui-kit-pro/index.html) [![version][version-badge]][CHANGELOG]][LICENSE]
 
 ![alt text](https://s3.amazonaws.com/creativetim_bucket/products/62/original/opt_nukp_thumbnail.jpg? "Now UI Kit Pro")
 
@@ -117,4 +117,3 @@ Instagram: <https://instagram.com/creativetimofficial>
 [CHANGELOG]: ./CHANGELOG.md
 [LICENSE]: ./LICENSE
 [version-badge]: https://img.shields.io/badge/version-1.1.0-blue.svg
-[license-badge]: https://img.shields.io/badge/license-MIT-blue.svg
