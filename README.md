@@ -1,4 +1,4 @@
-# [Now UI Kit Pro](http://demos.creative-tim.com/now-ui-kit-pro/index.html) [![version][version-badge]][CHANGELOG]][LICENSE]
+# [Now UI Kit Pro](http://demos.creative-tim.com/now-ui-kit-pro/index.html) [![version][version-badge]][CHANGELOG]]
 
 ![alt text](https://s3.amazonaws.com/creativetim_bucket/products/62/original/opt_nukp_thumbnail.jpg? "Now UI Kit Pro")
 
