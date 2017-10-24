@@ -3,7 +3,7 @@
 ![alt text](https://s3.amazonaws.com/creativetim_bucket/products/62/original/opt_nukp_thumbnail.jpg? "Now UI Kit Pro")
 
 
-**[Now UI Kit](http://demos.creative-tim.com/now-ui-kit-pro/index.html)** is a premium responsive Bootstrap 4 kit provided by Invision and Creative Tim. It is a beautiful cross-platform UI kit featuring over 1000+ elements and 11 templates.
+**[Now UI Kit Pro](http://demos.creative-tim.com/now-ui-kit-pro/index.html)** is a premium responsive Bootstrap 4 kit provided by Invision and Creative Tim. It is a beautiful cross-platform UI kit featuring over 1000+ elements and 11 templates.
 
 Now UI Kit Pro is one of the most popular UI Kits online, provided in PSD and Sketch formats by Invision. We wanted to find a way for developers worldwide to benefit from using it. So, in collaboration with Invision, we are launching the HTML version for it!
 
