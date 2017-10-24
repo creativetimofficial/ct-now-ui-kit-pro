@@ -60,120 +60,138 @@ Button groups and disabled state all work like they are supposed to. We used the
 ## Checkboxes
 To use the custom checkboxes, you don't need to import any separate Javascript file, just add the below code:
 
-<div class="checkbox">
-    <input id="checkbox1" type="checkbox">
-    <label for="checkbox1">
-        Unchecked
-    </label>
+<div class="form-check">
+	<label class="form-check-label">
+		<input class="form-check-input" type="checkbox">
+		<span class="form-check-sign"></span>
+		Unchecked
+	</label>
 </div>
 
-<div class="checkbox">
-    <input id="checkbox2" type="checkbox" checked="">
-    <label for="checkbox2">
-        Checked
-    </label>
+<div class="form-check">
+	<label class="form-check-label">
+		<input class="form-check-input" type="checkbox">
+		<span class="form-check-sign"></span>
+		Checked
+	</label>
 </div>
 
-<div class="checkbox">
-    <input id="checkbox3" type="checkbox" disabled="">
-    <label for="checkbox3">
-        Disabled unchecked
-    </label>
+
+<div class="form-check disabled">
+	<label class="form-check-label">
+		<input class="form-check-input" type="checkbox" disabled>
+		<span class="form-check-sign"></span>
+		Disabled Unchecked
+	</label>
 </div>
 
-<div class="checkbox">
-    <input id="checkbox4" type="checkbox" checked="" disabled="">
-    <label for="checkbox4">
-        Disabled checked
-    </label>
+<div class="form-check disabled">
+	<label class="form-check-label">
+		<input class="form-check-input" type="checkbox" checked disabled>
+		<span class="form-check-sign"></span>
+		Disabled Checked
+	</label>
 </div>
 
-    <div class="checkbox">
-        <input id="checkbox1" type="checkbox">
-        <label for="checkbox1">
-            Unchecked
-        </label>
+    <div class="form-check">
+    	<label class="form-check-label">
+    		<input class="form-check-input" type="checkbox">
+    		<span class="form-check-sign"></span>
+    		Unchecked
+    	</label>
     </div>
 
-    <div class="checkbox">
-        <input id="checkbox2" type="checkbox" checked="">
-        <label for="checkbox2">
-            Checked
-        </label>
+    <div class="form-check">
+    	<label class="form-check-label">
+    		<input class="form-check-input" type="checkbox">
+    		<span class="form-check-sign"></span>
+    		Checked
+    	</label>
     </div>
 
-    <div class="checkbox">
-        <input id="checkbox3" type="checkbox" disabled="">
-        <label for="checkbox3">
-            Disabled unchecked
-        </label>
+
+    <div class="form-check disabled">
+    	<label class="form-check-label">
+    		<input class="form-check-input" type="checkbox" disabled>
+    		<span class="form-check-sign"></span>
+    		Disabled Unchecked
+    	</label>
     </div>
 
-    <div class="checkbox">
-        <input id="checkbox4" type="checkbox" checked="" disabled="">
-        <label for="checkbox4">
-            Disabled checked
-        </label>
+    <div class="form-check disabled">
+    	<label class="form-check-label">
+    		<input class="form-check-input" type="checkbox" checked disabled>
+    		<span class="form-check-sign"></span>
+    		Disabled Checked
+    	</label>
     </div>
 
 </br>
 ## Radio Buttons
 To use the custom radio buttons, you don't need to import any separate Javascript file, just add the below code:
 
-<div class="radio">
-    <input type="radio" name="radio1" id="radio1" value="option1">
-    <label for="radio1">
-        Radio is off
-    </label>
+<div class="form-check form-check-radio">
+	<label class="form-check-label">
+		<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+		<span class="form-check-sign"></span>
+		Radio is off
+	</label>
 </div>
 
-<div class="radio">
-    <input type="radio" name="radio1" id="radio2" value="option2" checked="">
-    <label for="radio2">
-        Radio is on
-    </label>
+<div class="form-check form-check-radio">
+	<label class="form-check-label">
+		<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option2" checked="">
+		<span class="form-check-sign"></span>
+		Radio is on
+	</label>
 </div>
 
-<div class="radio">
-    <input type="radio" name="radio3" id="radio3" value="option3" disabled="">
-    <label for="radio3">
-        Disabled radio is off
-    </label>
+<div class="form-check form-check-radio disabled">
+	<label class="form-check-label">
+		<input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios2" value="option3" disabled="">
+		<span class="form-check-sign"></span>
+	 	Disabled radio is off
+	</label>
 </div>
 
-<div class="radio">
-    <input type="radio" name="radio4" id="radio4" value="option4" checked="" disabled="">
-    <label for="radio4">
-        Disabled radio is on
-    </label>
+<div class="form-check form-check-radio disabled">
+   <label class="form-check-label">
+	   <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios2" value="option4" disabled="" checked="">
+	   <span class="form-check-sign"></span>
+	   Disabled radio is on
+   </label>
 </div>
 
-    <div class="radio">
-        <input type="radio" name="radio1" id="radio1" value="option1">
-        <label for="radio1">
+    <div class="form-check form-check-radio">
+        <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1">
+            <span class="form-check-sign"></span>
             Radio is off
         </label>
     </div>
 
-    <div class="radio">
-        <input type="radio" name="radio1" id="radio2" value="option2" checked="">
-        <label for="radio2">
+    <div class="form-check form-check-radio">
+        <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option2" checked="">
+            <span class="form-check-sign"></span>
             Radio is on
         </label>
     </div>
 
-    <div class="radio">
-        <input type="radio" name="radio3" id="radio3" value="option3" disabled="">
-        <label for="radio3">
+    <div class="form-check form-check-radio disabled">
+        <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios2" value="option3" disabled="">
+            <span class="form-check-sign"></span>
             Disabled radio is off
         </label>
     </div>
 
-    <div class="radio">
-        <input type="radio" name="radio4" id="radio4" value="option4" checked="" disabled="">
-        <label for="radio4">
-            Disabled radio is on
-        </label>
+    <div class="form-check form-check-radio disabled">
+       <label class="form-check-label">
+           <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios2" value="option4" disabled="" checked="">
+           <span class="form-check-sign"></span>
+           Disabled radio is on
+       </label>
     </div>
 
 </br>
@@ -440,18 +458,18 @@ The parallax scrolling effect can be activated by simple putting `data-parallax=
 ## Navbar
 The classic Bootstrap Navbar was restyled:
 
-<nav class="navbar navbar-toggleable-md bg-white">
+<nav class="navbar navbar-expand-lg bg-white">
     <div class="container">
         <div class="navbar-translate">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-   	        <span class="navbar-toggler-bar bar1"></span>
-	        <span class="navbar-toggler-bar bar2"></span>
-	        <span class="navbar-toggler-bar bar3"></span>
- 	    </button>
+            <a class="navbar-brand" href="#pablo">
+               Navbar
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+       	        <span class="navbar-toggler-bar bar1"></span>
+    	        <span class="navbar-toggler-bar bar2"></span>
+    	        <span class="navbar-toggler-bar bar3"></span>
+ 	        </button>
 
-	    <a class="navbar-brand" href="#pablo">
-	        Navbar
-	    </a>
         </div>
 
         <div class="collapse navbar-collapse" id="navigation">
@@ -472,21 +490,20 @@ The classic Bootstrap Navbar was restyled:
     </div>
 </nav>
 
-    <nav class="navbar navbar-toggleable-md bg-white">
+    <nav class="navbar navbar-expand-lg bg-white">
         <div class="container">
             <div class="navbar-translate">
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-       	        <span class="navbar-toggler-bar bar1"></span>
-    	        <span class="navbar-toggler-bar bar2"></span>
-    	        <span class="navbar-toggler-bar bar3"></span>
-     	    </button>
-
-    	    <a class="navbar-brand" href="#pablo">
-    	        Navbar
-    	    </a>
+                <a class="navbar-brand" href="#pablo">
+        	        Navbar
+        	    </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+           	        <span class="navbar-toggler-bar bar1"></span>
+        	        <span class="navbar-toggler-bar bar2"></span>
+        	        <span class="navbar-toggler-bar bar3"></span>
+     	        </button>    
             </div>
 
-            <div class="collapse navbar-collapse" id="navigation">
+            <div class="collapse navbar-collapse">
         	    <ul class="navbar-nav">
                     <li class="nav-item active">
                         <a class="nav-link" href="#pablo">
@@ -506,22 +523,21 @@ The classic Bootstrap Navbar was restyled:
 
 Besides the white navbar, we added 5 new colors: grey, blue, green, yellow, red. If you want to use one of them, you have to replace the .bg-white with the class for the chosen color `.bg-info`, `.bg-success`, `.bg-warning`, `.bg-danger`, `.bg-default`.
 
-<nav class="navbar navbar-toggleable-md bg-info">
+<nav class="navbar navbar-expand-lg bg-info">
     <div class="container">
         <div class="navbar-translate">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-bar bar1"></span>
-            <span class="navbar-toggler-bar bar2"></span>
-            <span class="navbar-toggler-bar bar3"></span>
-        </button>
-
-        <a class="navbar-brand" href="#pablo">
-            Navbar
-        </a>
+            <a class="navbar-brand" href="#pablo">
+                Navbar
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="navigation">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#pablo">
                         Home
@@ -538,22 +554,21 @@ Besides the white navbar, we added 5 new colors: grey, blue, green, yellow, red.
     </div>
 </nav>
 
-<nav class="navbar navbar-toggleable-md bg-success">
+<nav class="navbar navbar-expand-lg bg-success">
     <div class="container">
         <div class="navbar-translate">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-bar bar1"></span>
-            <span class="navbar-toggler-bar bar2"></span>
-            <span class="navbar-toggler-bar bar3"></span>
-        </button>
-
-        <a class="navbar-brand" href="#pablo">
-            Navbar
-        </a>
+            <a class="navbar-brand" href="#pablo">
+                Navbar
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="navigation">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#pablo">
                         Home
@@ -570,22 +585,21 @@ Besides the white navbar, we added 5 new colors: grey, blue, green, yellow, red.
     </div>
 </nav>
 
-<nav class="navbar navbar-toggleable-md bg-warning">
+<nav class="navbar navbar-expand-lg bg-warning">
     <div class="container">
         <div class="navbar-translate">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-bar bar1"></span>
-            <span class="navbar-toggler-bar bar2"></span>
-            <span class="navbar-toggler-bar bar3"></span>
-        </button>
-
-        <a class="navbar-brand" href="#pablo">
-            Navbar
-        </a>
+            <a class="navbar-brand" href="#pablo">
+                Navbar
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="navigation">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#pablo">
                         Home
@@ -602,22 +616,21 @@ Besides the white navbar, we added 5 new colors: grey, blue, green, yellow, red.
     </div>
 </nav>
 
-<nav class="navbar navbar-toggleable-md bg-danger">
+<nav class="navbar navbar-expand-lg bg-danger">
     <div class="container">
         <div class="navbar-translate">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-bar bar1"></span>
-            <span class="navbar-toggler-bar bar2"></span>
-            <span class="navbar-toggler-bar bar3"></span>
-        </button>
-
-        <a class="navbar-brand" href="#pablo">
-            Navbar
-        </a>
+            <a class="navbar-brand" href="#pablo">
+                Navbar
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="navigation">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#pablo">
                         Home
@@ -634,22 +647,21 @@ Besides the white navbar, we added 5 new colors: grey, blue, green, yellow, red.
     </div>
 </nav>
 
-<nav class="navbar navbar-toggleable-md bg-default">
+<nav class="navbar navbar-expand-lg bg-default">
     <div class="container">
         <div class="navbar-translate">
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-bar bar1"></span>
-            <span class="navbar-toggler-bar bar2"></span>
-            <span class="navbar-toggler-bar bar3"></span>
-        </button>
-
-        <a class="navbar-brand" href="#pablo">
-            Navbar
-        </a>
+            <a class="navbar-brand" href="#pablo">
+                Navbar
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-bar bar1"></span>
+                <span class="navbar-toggler-bar bar2"></span>
+                <span class="navbar-toggler-bar bar3"></span>
+            </button>
         </div>
 
-        <div class="collapse navbar-collapse" id="navigation">
-            <ul class="navbar-nav">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="#pablo">
                         Home
@@ -1249,10 +1261,10 @@ We restyled the classic Bootstrap Modal and gave it a more simple look.
 ## Tooltips
 We restyled the Bootstrap tooltip.
 
-<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Button with Tooltip</button>
+<button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right" id="nume">Button with Tooltip</button>
 
     <!-- Markup -->
-    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Button with Tooltip</button>
+    <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="right" title="Tooltip on right">Button with Tooltip</button>
 
     <!-- Javascript -->
     $('[data-toggle="tooltip"]').tooltip();
@@ -1262,12 +1274,12 @@ We restyled the Bootstrap tooltip.
 We restyled the Bootstrap popover to align with the Now Ui Kit Concept. You have the option to set color of the background changing the value of attribute `data-color=""` with one of the next values: `popover-info`, `popover-warning`, `popover-danger`, `popover-success`.
 See the following example:
 
-<button type="button" class="btn btn-default" data-color="popover-primary" data-toggle="popover" data-placement="left" title="" data-content="Here will be some very useful information about his popover.<br> Here will be some very useful information about his popover." data-container="body" data-original-title="Popover on left">On left</button>
-
-<button type="button" class="btn btn-default" data-toggle="popover" data-placement="top" title="" data-content="Here will be some very useful information about his popover." data-container="body" data-original-title="Popover on top">On top</button>
+<button type="button" class="btn btn-default" data-container="body" data-original-title="Popover On Right" data-toggle="popover" data-placement="right" data-content="Here will be some very useful information about his popover." data-color="primary">
+    Button with popover
+</button>
 
     <!-- markup -->
-    <button type="button" class="btn btn-default" data-toggle="popover" data-placement="top" title="Popover on top" data-content="Here will be some very useful information about his popover.">On top</button>
+    <button type="button" class="btn btn-default" data-toggle="popover" data-placement="right" title="Popover on top" data-content="Here will be some very useful information about his popover.">On top</button>
 
 
     <!-- javascript -->
@@ -1390,13 +1402,13 @@ We have created two options for the background of sections. You can go with a `b
 
 <div class="row">
 <div class="col-md-1">
-    <span class="pick-class-label label-tooltip" data-background-color="orange" data-toggle="tooltip" data-placement="top" title="" data-original-title="data-background-color='orange'"> </span>
+    <span class="pick-class-label label-tooltip" data-background-color="orange" data-toggle="tooltip" data-placement="right" title="" data-original-title="data-background-color='orange'"> </span>
 </div>
 <div class="col-md-1">
-    <span class="pick-class-label label-tooltip" data-background-color="black" data-toggle="tooltip" data-placement="top" title="" data-original-title="data-background-color='black'"> </span>
+    <span class="pick-class-label label-tooltip" data-background-color="black" data-toggle="tooltip" data-placement="right" title="" data-original-title="data-background-color='black'"> </span>
 </div>
 <div class="col-md-1">
-    <span class="pick-class-label label-tooltip" data-background-color="gray" data-toggle="tooltip" data-placement="top" title="" data-original-title="data-background-color='gray'"> </span>
+    <span class="pick-class-label label-tooltip" data-background-color="gray" data-toggle="tooltip" data-placement="right" title="" data-original-title="data-background-color='gray'"> </span>
 </div>
 </div>
 

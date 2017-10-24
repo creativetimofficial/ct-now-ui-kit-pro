@@ -12,13 +12,12 @@ Once you have downloaded the archive and opened it, you will find the following 
     │   │   ├── core
     │   │   │   ├── bootstrap.min.js
     │   │   │   ├── jquery.3.2.1.min.js
-    │   │   │   └── tether.min.js
+    │   │   │   └── popper.min.js
     │   │   ├── now-ui-kit.js
     │   │   └── plugins
     │   │       ├── bootstrap-datetimepicker.min.js
     │   │       ├── bootstrap-selectpicker.js
     │   │       ├── bootstrap-switch.js
-    │   │       ├── isometricGrids.js
     │   │       ├── jasny-bootstrap.min.js
     │   │       ├── modernizr.custom.js
     │   │       ├── moment.min.js

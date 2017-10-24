@@ -13,6 +13,6 @@ Now UI Kit will help you create a clean and simple website that is a perfect fit
 The **Now Ui Kit Pro** is built on top of Bootstrap 4, so you can safely use it on your existing or a new Bootstrap project. No line of code from Bootstrap 4 was changed, so you don't have to worry about undesired effects in your work.
 
 We provide all the necessary CSS resources. To get going, just include
-`assets/css/now-ui-kit-pro.css` in your HTML template. Your project will get the new look.
+`assets/css/now-ui-kit.css` in your HTML template. Your project will get the new look.
 
 The easiest way to start is to use our [start-up template](template.html) where all the files are already included and ready to use.

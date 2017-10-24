@@ -1,12 +1,12 @@
 /*!
 
  =========================================================
- * Now-ui-kit - v1.0.0
+ * Now-ui-kit-pro - v1.0.1
  =========================================================
 
- * Product Page: https://www.creative-tim.com/product/now-ui-kit
+ * Product Page: https://www.creative-tim.com/product/now-ui-kit-pro
  * Copyright 2017 Creative Tim (http://www.creative-tim.com)
- * Licensed under MIT (https://github.com/creativetimofficial/now-ui-kit/blob/master/LICENSE.md)
+  * View License on http://www.creative-tim.com/license
 
  * Designed by www.invisionapp.com Coded by www.creative-tim.com
 
@@ -17,6 +17,7 @@
  */
 
 var transparent = true;
+var big_image;
 
 var transparentDemo = true;
 var fixedTop = false;
@@ -31,44 +32,34 @@ $(document).ready(function(){
 
     //    Activate bootstrap-select
     if($(".selectpicker").length != 0){
-        $(".selectpicker").selectpicker();
+        $(".selectpicker").selectpicker({
+            iconBase: "now-ui-icons",
+            tickIcon: "ui-1_check"
+        });
     };
 
-    //Activate tags
-    //removed class label and label-color from tag span and replaced with data-color
-    var tagClass = $('.tagsinput').data('color');
-
-    $('.tagsinput').tagsinput({
-        tagClass: ""
-    });
-
-    // $('input').tagsinput('refresh', function(){
-    //     $('.bootstrap-tagsinput span').each(function(){
-    //         $(this).addClass('tag-'+ tagClass +'');
-    //     });
-    // });
+    if ($(window).width() >= 768){
+        big_image = $('.header[data-parallax="true"]');
+        if(big_image.length != 0){
+           $(window).on('scroll', nowuiKit.checkScrollForParallax);
+        }
+    }
 
     // Activate Popovers and set color for popovers
     $('[data-toggle="popover"]').each(function(){
         color_class = $(this).data('color');
         $(this).popover({
-            template: '<div class="popover '+ color_class +' " role="tooltip"><h3 class="popover-title"></h3><div class="popover-content"></div></div>'
+            template: '<div class="popover popover-'+color_class +'" role="tooltip"><div class="arrow"></div><h3 class="popover-header"></h3><div class="popover-body"></div></div>'
         });
     });
 
     // Activate the image for the navbar-collapse
-    if($(window).width < 991 || $('body').hasClass('burger-menu') ){
-        nowuiKit.initNavbarImage();
-    }
-
-    nowuiKit.initSliders();
-
+    nowuiKit.initNavbarImage();
 
     $navbar = $('.navbar[color-on-scroll]');
     scroll_distance = $navbar.attr('color-on-scroll') || 500;
 
     // Check if we have the class "navbar-color-on-scroll" then add the function to remove the class "navbar-transparent" so it will transform to a plain color.
-
     if($('.navbar[color-on-scroll]').length != 0){
         nowuiKit.checkScrollForTransparentNavbar();
         $(window).on('scroll', nowuiKit.checkScrollForTransparentNavbar)
@@ -95,7 +86,7 @@ $(document).ready(function(){
     if ($(window).width() >= 992){
         big_image = $('.page-header-image[data-parallax="true"]');
 
-        $(window).on('scroll', nowuiKitDemo.checkScrollForParallax);
+        $(window).on('scroll', nowuiKit.checkScrollForParallax);
     }
 
     // Activate Carousel
@@ -115,8 +106,7 @@ $(document).ready(function(){
                 today: 'fa fa-screenshot',
                 clear: 'fa fa-trash',
                 close: 'fa fa-remove'
-            },
-            debug: true
+            }
         });
 
         $('.datepicker').datetimepicker({
@@ -150,6 +140,116 @@ $(document).ready(function(){
            }
         });
     };
+
+
+    if($('.twitter-sharrre').length != 0){
+        $('.twitter-sharrre').sharrre({
+          share: {
+            twitter: true
+          },
+          enableHover: false,
+          enableTracking: false,
+          enableCounter: false,
+          buttons: { twitter: {via: 'CreativeTim'}},
+          click: function(api, options){
+            api.simulateClick();
+            api.openPopup('twitter');
+          },
+          template: '<i class="fa fa-twitter"></i>',
+          url: 'http://demos.creative-tim.com/now-ui-kit-pro/presentation.html'
+        });
+    }
+
+    if($('.twitter-sharrre-nav').length != 0){
+        $('.twitter-sharrre-nav').sharrre({
+          share: {
+            twitter: true
+          },
+          enableHover: false,
+          enableTracking: false,
+          enableCounter: false,
+          buttons: { twitter: {via: 'CreativeTim'}},
+          click: function(api, options){
+            api.simulateClick();
+            api.openPopup('twitter');
+          },
+          template: '<i class="fa fa-twitter"></i><p class="hidden-lg-up">Twitter</p>',
+          url: 'http://demos.creative-tim.com/now-ui-kit-pro/presentation.html'
+        });
+    }
+
+    if($('.facebook-sharrre').length != 0){
+        $('.facebook-sharrre').sharrre({
+          share: {
+            facebook: true
+          },
+          enableHover: false,
+          enableTracking: false,
+          enableCounter: false,
+          click: function(api, options){
+            api.simulateClick();
+            api.openPopup('facebook');
+          },
+          template: '<i class="fa fa-facebook-square"></i>',
+          url: 'http://demos.creative-tim.com/now-ui-kit-pro/presentation.html'
+        });
+    }
+
+    if($('.facebook-sharrre-nav').length != 0){
+        $('.facebook-sharrre-nav').sharrre({
+          share: {
+            facebook: true
+          },
+          enableHover: false,
+          enableTracking: false,
+          enableCounter: false,
+          click: function(api, options){
+            api.simulateClick();
+            api.openPopup('facebook');
+          },
+          template: '<i class="fa fa-facebook-square"></i><p class="hidden-lg-up">Facebook</p>',
+          url: 'http://demos.creative-tim.com/now-ui-kit-pro/presentation.html'
+        });
+    }
+
+    if($('.linkedin-sharrre').length != 0){
+        $('.linkedin-sharrre').sharrre({
+          share: {
+            linkedin: true
+          },
+          enableCounter: false,
+          enableHover: false,
+          enableTracking: false,
+          click: function(api, options){
+            api.simulateClick();
+            api.openPopup('linkedin');
+          },
+          template: '<i class="fa fa-linkedin"></i>',
+          url: 'http://demos.creative-tim.com/now-ui-kit-pro/presentation.html'
+        });
+    }
+
+    if($('.linkedin-sharrre-nav').length != 0){
+        $('.linkedin-sharrre-nav').sharrre({
+          share: {
+            linkedin: true
+          },
+          enableCounter: false,
+          enableHover: false,
+          enableTracking: false,
+          click: function(api, options){
+            api.simulateClick();
+            api.openPopup('linkedin');
+          },
+          template: '<i class="fa fa-linkedin"></i><p class="hidden-lg-up">LinkedIn</p>',
+          url: 'http://demos.creative-tim.com/now-ui-kit-pro/presentation.html'
+        });
+    }
+
+});
+
+$(window).on('resize', function(){
+    nowuiKit.initNavbarImage();
 });
 
 $(document).on('click', '.navbar-toggler', function(){
@@ -201,13 +301,21 @@ nowuiKit = {
     }, 17),
 
     initNavbarImage: function(){
-        $navbar = $('.navbar').find('.navbar-translate').siblings('.navbar-collapse');
-        background_image = $navbar.data('nav-image');
-        if(background_image != undefined){
-           $navbar.css('background',"url('" + background_image + "')")
-                  .removeAttr('data-nav-image')
-                  .css('background-size',"cover")
-                  .addClass('has-image');
+        var $navbar = $('.navbar').find('.navbar-translate').siblings('.navbar-collapse');
+        var background_image = $navbar.data('nav-image');
+
+        if( $(window).width() < 991 || $('body').hasClass('burger-menu') ){
+            if(background_image != undefined){
+               $navbar.css('background',"url('" + background_image + "')")
+                      .removeAttr('data-nav-image')
+                      .css('background-size',"cover")
+                      .addClass('has-image');
+            }
+        } else if( background_image != undefined ){
+            $navbar.css('background',"")
+                   .attr('data-nav-image', ''+ background_image + '')
+                   .css('background-size',"")
+                   .removeClass('has-image');
         }
     },
 
@@ -235,6 +343,18 @@ nowuiKit = {
             }
         });
     },
+
+    checkScrollForParallax: debounce(function(){
+
+        oVal = ($(window).scrollTop() / 3);
+        big_image.css({
+            'transform':'translate3d(0,' + oVal +'px,0)',
+            '-webkit-transform':'translate3d(0,' + oVal +'px,0)',
+            '-ms-transform':'translate3d(0,' + oVal +'px,0)',
+            '-o-transform':'translate3d(0,' + oVal +'px,0)'
+        });
+
+    }, 6),
 
     initContactUsMap: function(){
         var myLatlng = new google.maps.LatLng(40.748817, -73.985428);
@@ -278,25 +398,6 @@ nowuiKit = {
     }
 }
 
-
-var big_image;
-
-// Javascript just for Demo purpose, remove it from your project
-nowuiKitDemo = {
-    checkScrollForParallax: debounce(function(){
-
-        oVal = ($(window).scrollTop() / 3);
-        big_image.css({
-            'transform':'translate3d(0,' + oVal +'px,0)',
-            '-webkit-transform':'translate3d(0,' + oVal +'px,0)',
-            '-ms-transform':'translate3d(0,' + oVal +'px,0)',
-            '-o-transform':'translate3d(0,' + oVal +'px,0)'
-        });
-
-    }, 6)
-
-}
-
 // Returns a function, that, as long as it continues to be invoked, will not
 // be triggered. The function will be called after it stops being called for
 // N milliseconds. If `immediate` is passed, trigger the function on the
@@ -314,3 +415,13 @@ function debounce(func, wait, immediate) {
 		if (immediate && !timeout) func.apply(context, args);
 	};
 };
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-46172202-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
