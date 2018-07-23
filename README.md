@@ -31,7 +31,7 @@ Let us know your thoughts below. And good luck with development!
 
 
 | HTML | Angular |
-| --- | --- | --- | --- |
+| --- | --- |
 | ![Now UI Kit Pro HTML](https://s3.amazonaws.com/creativetim_bucket/products/62/thumb/opt_nukp_thumbnail.jpg) | ![Now UI Kit Pro Angular](https://s3.amazonaws.com/creativetim_bucket/products/74/thumb/opt_nukp_angular_thumbnail.jpg)
 
 ## Demo
