@@ -1,7 +1,7 @@
 # [Now UI Kit Pro](https://demos.creative-tim.com/now-ui-kit-pro/index.html) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Now%20UI%20Kit%20PRO%20by%20Creative%20Tim%20https%3A//demos.creative-tim.com/now-ui-kit-pro/index.html%20via%20%40CreativeTim)
 
 
-![version](https://img.shields.io/badge/version-1.2.2-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-now-ui-kit-pro.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-kit-pro/issues?q=is%3Aopen+is%3Aissue) [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-now-ui-kit-pro.svg?maxAge=259200)](https://github.com/creativetimofficial/ct-now-ui-kit-pro/issues?q=is%3Aissue+is%3Aclosed) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
+![version](https://img.shields.io/badge/version-1.3.1-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/ct-now-ui-kit-pro.svg?maxAge=2592000)](https://github.com/creativetimofficial/ct-now-ui-kit-pro/issues?q=is%3Aopen+is%3Aissue) [![GitHub closed issues](https://img.shields.io/github/issues-closed-raw/creativetimofficial/ct-now-ui-kit-pro.svg?maxAge=259200)](https://github.com/creativetimofficial/ct-now-ui-kit-pro/issues?q=is%3Aissue+is%3Aclosed) [![Chat](https://img.shields.io/badge/chat-on%20discord-7289da.svg)](https://discord.gg/E4aHAQy)
 
 ![Product Gif](https://s3.amazonaws.com/creativetim_bucket/products/62/original/opt_nukp_thumbnail.jpg)
 
