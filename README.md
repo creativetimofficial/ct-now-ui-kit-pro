@@ -1,3 +1,6 @@
+**[DEPRECATED] - This product will not receive updates anymore! Check the new product [here](https://www.creative-tim.com/product/now-ui-design-system-pro)!**
+
+
 # [Now UI Kit Pro](https://demos.creative-tim.com/now-ui-kit-pro/index.html) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)](https://twitter.com/home?status=Now%20UI%20Kit%20PRO%20by%20Creative%20Tim%20https%3A//demos.creative-tim.com/now-ui-kit-pro/index.html%20via%20%40CreativeTim)
 
 
